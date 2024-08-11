@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pac-Man</title>
-</head>
-<body>
+    <style>
+      #gameCanvas {
+        box-shadow: 10px 10px 20px black;
+      }
+      h1 {
+        text-align: center;
+        font-family: comic sans MS;
+        color: lightgrey;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background: linear-gradient(
+            0deg,
+            rgb(21, 15, 198) 50%,
+            rgb(34, 47, 195) 100%
+        );
+
+      }
+    </style>
+ </head>
+ <body>
     <div>
         <h1>Pac-Man</h1>
         <canvas id="gameCanvas"></canvas>
