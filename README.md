@@ -1,3 +1,3 @@
 # PACMAN-GAME
 
-Work in - Progress, Continues Integration Active!
+Work in - Progress, CI/CDActive!
