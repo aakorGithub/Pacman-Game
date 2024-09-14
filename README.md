@@ -7,3 +7,5 @@
 
 
 # PROGRESS-ACTIVE
+
+Currently developing the Pacman game. The project is actively in progress.
