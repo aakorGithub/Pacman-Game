@@ -71,8 +71,8 @@ export default class TileMap{
   }
 
   getPacman(velocity){
-      for(let row=0; row < this.map.length; row++){
-          for(let column =0; column < this.map[row].length; column++){
+      for(let row = 0; row < this.map.length; row++){
+          for(let column = 0; column < this.map[row].length; column++){
             let tile = this.map[row][column];
             if (tile === 4) {
               this.map[row][column] = 0;
