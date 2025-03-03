@@ -63,7 +63,6 @@ export default class Pacman {
     // Represents right
     if(event.key === 39){
     }
-
   }
 }
 
